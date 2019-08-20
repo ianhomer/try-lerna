@@ -22,6 +22,11 @@ Create FE UI
 Set package name in services/foo/foo-ui/package.json and add proxy through to back end port for
 local dev, e.g. "proxy": "http://localhost:8080".
 
+# CI/CD
+
+Change to one microservice should only trigger specific build, e.g. 
+[wildcard path include in Azure Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#paths).
+
 # Thanks
 
 * https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302
