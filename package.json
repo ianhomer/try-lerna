@@ -12,5 +12,8 @@
     "clean:lerna": "lerna clean --yes",
     "develop": "lerna run start --parallel",
     "start": "run-s bootstrap develop"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

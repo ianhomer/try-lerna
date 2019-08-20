@@ -7,12 +7,12 @@
 
 Create BE API
 
-    mkdir -p services/user-api
-    cd services/user-api
+    mkdir -p services/foo/foo-api
+    cd services/foo/foo-api
     npm init --scope=try-lerna --yes
     npm i express --save
-    lerna add @try-lerna/logger --scope=@try-lerna/user-api
-
+    lerna add @try-lerna/logger --scope=@try-lerna/foo-api
+    
 Create 
 
     
