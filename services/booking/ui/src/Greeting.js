@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isNullOrWhitespace } from '@try-lerna/validator';
+import { isNullOrWhitespace } from 'packages/validator';
 
 export class Greeting extends Component {
   state = {
