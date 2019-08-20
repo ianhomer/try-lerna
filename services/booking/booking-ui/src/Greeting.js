@@ -13,7 +13,7 @@ export class Greeting extends Component {
       return;
     }
 
-    fetch(`/greeting?name=${name}`)
+    fetch(`/booking?name=${name}`)
       .then(response => response.json())
       .then(({message}) => this.setState({message, error: null}))
       .catch(error => this.setState({error}));

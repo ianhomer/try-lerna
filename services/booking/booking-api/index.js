@@ -4,10 +4,10 @@ const logger = require('@try-lerna/logger');
 const PORT = process.env.PORT || 8080;
 const app = express();
 
-app.get('/greeting', (req, res) => {
-  logger.info('/greeting was called');
+app.get('/booking', (req, res) => {
+  logger.info('/booking was called');
   res.send({
-    message: `Hello, ${req.query.name || 'World'}!`
+    message: `Hello from booking service, ${req.query.name || 'World'}!`
   });
 })
 
