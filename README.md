@@ -1,4 +1,7 @@
-# try-lerna
+# TL;DR
+
+    npm install
+    npm start 
 
 # Thanks
 
