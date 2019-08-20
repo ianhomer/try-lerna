@@ -1,0 +1,8 @@
+# IDEA
+
+.idea/workspace.xml
+.idea/sonarlint
+
+# Node.js
+
+node_modules
