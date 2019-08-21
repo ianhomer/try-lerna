@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Greeting} from "./Greeting"
+import {CallBackend} from "./CallBackend"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>User Service</p>
-        <Greeting/>
+        <CallBackend/>
       </header>
     </div>
   );

@@ -4,11 +4,11 @@ const logger = require('@try-lerna/logger');
 const PORT = process.env.PORT || 8081;
 const app = express();
 
-app.get('/greeting', (req, res) => {
-  logger.info('/greeting was called');
+app.get('/foo', (req, res) => {
+  logger.info('user-api /foo was called');
   res.send({
-    message: `Hello from user service, ${req.query.name || 'World'}!`
+    message: `User service - ${req.query.name || 'N/A'}!`
   });
 })
 
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
+app.listen(PORT, () => console.log(`User API listening on port ${PORT}`))

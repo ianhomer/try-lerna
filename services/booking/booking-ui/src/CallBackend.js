@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { isNullOrWhitespace } from '@try-lerna/validator';
 
-export class Greeting extends Component {
+export class CallBackend extends Component {
   state = {
     name: ''
   }
@@ -13,7 +13,7 @@ export class Greeting extends Component {
       return;
     }
 
-    fetch(`/booking?name=${name}`)
+    fetch(`/foo?name=${name}`)
       .then(response => response.json())
       .then(({message}) => this.setState({message, error: null}))
       .catch(error => this.setState({error}));
