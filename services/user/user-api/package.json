@@ -1,5 +1,6 @@
 {
   "name": "@try-lerna/user-api",
+  "description": "user-api service for try-lerna",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,6 +13,5 @@
   "dependencies": {
     "@try-lerna/logger": "^1.0.0",
     "express": "^4.17.1"
-  },
-  "description": ""
+  }
 }

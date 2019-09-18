@@ -26,3 +26,4 @@ local dev, e.g. "proxy": "http://localhost:8080".
 
 * https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302
 * https://github.com/reggi/lerna-tutorial
+* https://github.com/lerna/lerna/issues/1462 - hoisting and linking tips

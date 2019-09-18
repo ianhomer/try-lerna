@@ -8,13 +8,17 @@
   },
   "scripts": {
     "audit": "lerna exec npm audit",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
+    "install:package-locks": "lerna exec npm i --package-lock-only",
+    "link": "lerna link",
     "start": "run-s bootstrap start:lerna",
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test"
   },
   "dependencies": {
+    "@try-lerna/user-api": "file:services/user/user-api",
+    "@try-lerna/user-ui": "file:services/user/user-ui",
     "express": "^4.17.1"
   }
 }
