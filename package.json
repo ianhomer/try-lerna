@@ -7,9 +7,10 @@
     "rimraf": "^2.6.3"
   },
   "scripts": {
-    "audit": "lerna run audit",
+    "audit": "lerna exec npm audit",
     "bootstrap": "lerna bootstrap --hoist",
     "clean": "lerna clean --yes",
+    "reinstall": "lerna exec -- npm i",
     "start": "run-s bootstrap start:lerna",
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test"

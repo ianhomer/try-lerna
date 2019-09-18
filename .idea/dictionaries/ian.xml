@@ -4,6 +4,7 @@
       <w>browserslist</w>
       <w>eslint</w>
       <w>lerna</w>
+      <w>nodemon</w>
       <w>rimraf</w>
     </words>
   </dictionary>
