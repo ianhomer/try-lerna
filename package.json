@@ -7,11 +7,12 @@
     "rimraf": "^2.6.3"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "clean": "run-s clean:lerna",
-    "clean:lerna": "lerna clean --yes",
+    "audit": "lerna run audit",
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna clean --yes",
     "start": "run-s bootstrap start:lerna",
-    "start:lerna": "lerna run start --parallel"
+    "start:lerna": "lerna run start --parallel",
+    "test": "lerna run test"
   },
   "dependencies": {
     "express": "^4.17.1"
