@@ -1,1 +1,6 @@
-export * from "./EyeCandy";
+import EyeCandy from "./EyeCandy";
+
+export {
+  EyeCandy
+}
+
