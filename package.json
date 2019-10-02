@@ -7,13 +7,13 @@
     "rimraf": "^2.6.3"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "clean": "run-s clean:lerna",
-    "clean:lerna": "lerna clean --yes",
+    "audit": "lerna exec npm audit",
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna clean --yes",
+    "install:package-locks": "lerna exec npm i --package-lock-only",
+    "link": "lerna link",
     "start": "run-s bootstrap start:lerna",
-    "start:lerna": "lerna run start --parallel"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
+    "start:lerna": "lerna run start --parallel",
+    "test": "lerna run test"
   }
 }

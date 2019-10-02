@@ -31,3 +31,4 @@ Change to one microservice should only trigger specific build, e.g.
 
 * https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302
 * https://github.com/reggi/lerna-tutorial
+* https://github.com/lerna/lerna/issues/1462 - hoisting and linking tips
