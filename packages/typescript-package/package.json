@@ -2,9 +2,12 @@
   "name": "@try-lerna/typescript-package",
   "version": "1.0.0",
   "description": "Typescript package",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"No tests\""
+    "test": "echo \"No tests\"",
+    "build:watch": "tsc -w",
+    "prepublishOnly": "tsc",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -12,8 +15,7 @@
   "dependencies": {
     "typescript": "^3.6.3"
   },
-  "scripts": {
-    "prepublishOnly": "tsc",
-    "build": "tsc"
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }

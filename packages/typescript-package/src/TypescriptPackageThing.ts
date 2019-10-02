@@ -1,6 +1,6 @@
 class TypescriptPackageThing {
   public something(): string {
-    return "Something";
+    return "Something Else";
   }
 }
 

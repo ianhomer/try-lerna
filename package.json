@@ -14,7 +14,8 @@
     "link": "lerna link",
     "start": "run-s bootstrap start:lerna",
     "start:lerna": "lerna run start --parallel",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "build:watch": "lerna run build:watch"
   },
   "dependencies": {
     "handlebars": "^4.3.1"

@@ -1,11 +1,11 @@
 # tl;dr
 
-Currently only works if you pre-compile package
+In project root
 
-    cd ../../../packages/typescript-react-package
-    npm run build
-    cd -
+    npm run build:watch
 
 Then
 
     npm start
+    
+Then live code
