@@ -1,6 +1,7 @@
 # TL;DR
 
     npm install
+    npm run bootstrap
     npm start 
 
 # Creating new service

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "audit": "lerna exec npm audit",
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "clean": "lerna clean --yes",
     "install:package-locks": "lerna exec npm i --package-lock-only",
     "link": "lerna link",
