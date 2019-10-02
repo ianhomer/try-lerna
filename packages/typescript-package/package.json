@@ -1,0 +1,19 @@
+{
+  "name": "@try-lerna/typescript-package",
+  "version": "1.0.0",
+  "description": "Typescript package",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "build": "tsc"
+  }
+}
