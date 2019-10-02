@@ -1,12 +1,10 @@
 // Core
 import React, { ReactElement } from "react";
 
-const Button = (): ReactElement => {
+const EyeCandy = (): ReactElement => {
   return (
-    <button>
-      Text!
-    </button>
+    <div>Eye Candy</div>
   );
 };
 
-export default Button;
+export default EyeCandy;
