@@ -1,5 +1,5 @@
 {
-  "name": "with-typescript-ui",
+  "name": "@try-lerna/with-typescript-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-scripts": "3.1.2",
+    "ts-loader": "^6.2.0",
     "typescript": "3.6.3"
   },
   "scripts": {
