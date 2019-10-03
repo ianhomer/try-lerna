@@ -1,11 +1,5 @@
 # tl;dr
 
-In project root
-
-    npm run build:watch
-
-Then
-
     npm start
     
-Then live code
+And live code, with changes in share package reflected immediately.
