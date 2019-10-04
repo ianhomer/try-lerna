@@ -9,7 +9,11 @@
           "customMatcher": "\\.scss$"
         }
       }
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "*.scss": [ "*.css" ]
+    }
   },
   "typeRoots": [
     "./src/index.d.ts"

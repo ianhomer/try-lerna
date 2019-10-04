@@ -2,7 +2,7 @@
   "name": "@try-lerna/typescript-react-package",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "typings": "src/index.d.ts",
+  "types": "src/index.d.ts",
   "scripts": {
     "prepublishOnly": "tsc",
     "build": "tsc ; npm run build:sass",
