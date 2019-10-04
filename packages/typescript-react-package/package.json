@@ -5,8 +5,9 @@
   "types": "src/index.d.ts",
   "scripts": {
     "prepublishOnly": "tsc",
-    "build": "tsc ; npm run build:sass ; babel dist --out-dir dist",
+    "build": "tsc ; npm run build:sass",
     "build:sass": "node-sass  -o dist/ src/",
+    "build:babel": "babel dist --out-dir dist",
     "build:watch": "tsc -w"
   },
   "dependencies": {
