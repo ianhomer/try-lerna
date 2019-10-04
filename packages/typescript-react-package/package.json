@@ -5,13 +5,14 @@
   "types": "src/index.d.ts",
   "scripts": {
     "prepublishOnly": "tsc",
-    "build": "tsc ; npm run build:sass ; renamer --force --find .css --replace .scss 'dist/**'",
+    "build": "tsc ; npm run build:sass ; babel dist --out-dir dist",
     "build:sass": "node-sass  -o dist/ src/",
     "build:watch": "tsc -w"
   },
   "dependencies": {
     "@types/react": "^16.9.4",
     "@types/react-dom": "^16.9.1",
+    "babel-plugin-transform-rename-import": "^2.3.0",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.10.1",
@@ -23,6 +24,9 @@
     "styled-components": "^4.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "babel-plugin-transform-import-paths": "^1.0.2",
     "renamer": "^1.1.3"
   }
 }
