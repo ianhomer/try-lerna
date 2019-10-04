@@ -2,7 +2,7 @@
   "name": "@try-lerna/typescript-package",
   "version": "1.0.0",
   "description": "Typescript package",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"No tests\"",
     "build:watch": "tsc -w",
