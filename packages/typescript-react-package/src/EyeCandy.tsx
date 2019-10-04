@@ -1,7 +1,7 @@
 // Core
 import React, { ReactElement } from "react";
 
-import "./EyeCandy.scss";
+import "./EyeCandyStyle.css";
 
 const EyeCandy = (): ReactElement => {
   return (

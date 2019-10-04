@@ -9,6 +9,8 @@ declare class EyeCandy extends React.Component<EyeCandyProps, any> {
 declare module '@try-lerna/typescript-react-package' {
 }
 
+declare module '*.scss';
+
 export {
   EyeCandy
 };
