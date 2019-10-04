@@ -5,7 +5,7 @@
   "types": "src/index.d.ts",
   "scripts": {
     "prepublishOnly": "tsc",
-    "build": "tsc ; npm run build:sass",
+    "build": "tsc ; npm run build:sass ; renamer --force --find .css --replace .scss 'dist/**'",
     "build:sass": "node-sass  -o dist/ src/",
     "build:watch": "tsc -w"
   },
@@ -21,5 +21,8 @@
     "react": "^16.8",
     "react-dom": "^16.8",
     "styled-components": "^4.1"
+  },
+  "devDependencies": {
+    "renamer": "^1.1.3"
   }
 }
