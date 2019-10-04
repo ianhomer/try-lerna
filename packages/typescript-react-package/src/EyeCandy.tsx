@@ -1,9 +1,11 @@
 // Core
 import React, { ReactElement } from "react";
 
+import "./EyeCandy.scss";
+
 const EyeCandy = (): ReactElement => {
   return (
-    <div>Eye Candy</div>
+    <div className="candy">Eye Candy</div>
   );
 };
 

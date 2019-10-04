@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { EyeCandy } from "@try-lerna/typescript-react-package";
+import { EyeCandy } from "@try-lerna/typescript-react-package/src";
 import { TypescriptPackage, TypescriptPackageThing } from "@try-lerna/typescript-package";
 
 const App: React.FC = () => {
