@@ -14,14 +14,15 @@ Create BE API
     npm i express --save
     lerna add @try-lerna/logger --scope=@try-lerna/foo-api
 
-Create services/foo/foo-api/index.js and add "start": "node index.js" script to package.json.
+Create services/foo/foo-api/index.js and add "start": "node index.js" script to
+package.json.
 
 Create FE UI
 
     cd services/foo && npx create-react-app foo-ui
 
-Set package name in services/foo/foo-ui/package.json and add proxy through to back end port for
-local dev, e.g. "proxy": "http://localhost:8080".
+Set package name in services/foo/foo-ui/package.json and add proxy through to
+back end port for local dev, e.g. "proxy": "http://localhost:8080".
 
 # CI/CD
 
