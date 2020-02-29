@@ -2,7 +2,7 @@
 
     npm install
     npm run bootstrap
-    npm start 
+    npm start
 
 # Creating new service
 
@@ -19,14 +19,15 @@ Create services/foo/foo-api/index.js and add "start": "node index.js" script to 
 Create FE UI
 
     cd services/foo && npx create-react-app foo-ui
-    
+
 Set package name in services/foo/foo-ui/package.json and add proxy through to back end port for
 local dev, e.g. "proxy": "http://localhost:8080".
 
 # CI/CD
 
-Change to one microservice should only trigger specific build, e.g. 
-[wildcard path include in Azure Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#paths).
+Change to one microservice should only trigger specific build, e.g.
+[wildcard path include in Azure
+Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#paths).
 
 # Thanks
 

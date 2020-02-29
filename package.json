@@ -17,6 +17,7 @@
     "build:watch": "lerna run build:watch"
   },
   "dependencies": {
-    "handlebars": "^4.7.3"
+    "handlebars": "^4.7.3",
+    "npm-check-updates": "^4.0.2"
   }
 }

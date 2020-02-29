@@ -2,13 +2,12 @@
   "name": "@try-lerna/user-ui",
   "description": "user-ui service for try-lerna",
   "version": "0.1.0",
-  "private": true,
   "proxy": "http://localhost:8081",
   "dependencies": {
     "@try-lerna/validator": "^1.0.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",

@@ -1,7 +1,6 @@
 {
   "name": "@try-lerna/with-typescript-ui",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@try-lerna/typescript-package": "1.0.0",
     "@try-lerna/typescript-react-package": "1.0.0",
