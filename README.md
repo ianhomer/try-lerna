@@ -4,7 +4,7 @@
     npm run bootstrap
     npm start
 
-# Creating new service
+## Creating new service
 
 Create BE API
 
@@ -24,13 +24,13 @@ Create FE UI
 Set package name in services/foo/foo-ui/package.json and add proxy through to
 back end port for local dev, e.g. "proxy": "http://localhost:8080".
 
-# CI/CD
+## CI/CD
 
-Change to one microservice should only trigger specific build, e.g.
-[wildcard path include in Azure
+Change to one microservice should only trigger specific build, e.g.  [wildcard
+path include in Azure
 Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#paths).
 
-# Thanks
+## Thanks
 
 * https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302
 * https://github.com/reggi/lerna-tutorial
