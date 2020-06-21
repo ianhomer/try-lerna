@@ -30,8 +30,15 @@ Change to one microservice should only trigger specific build, e.g.  [wildcard
 path include in Azure
 Pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&tabs=yaml#paths).
 
+## Troubleshooting
+
+To regenerate a specific package-lock file
+
+    cd services/booking
+    npm install --package-lock-only
+
 ## Thanks
 
-* https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302
-* https://github.com/reggi/lerna-tutorial
-* https://github.com/lerna/lerna/issues/1462 - hoisting and linking tips
+* <https://medium.com/@erzhtor/javascript-monorepo-with-lerna-5729d6242302>
+* <https://github.com/reggi/lerna-tutorial>
+* <https://github.com/lerna/lerna/issues/1462> - hoisting and linking tips
