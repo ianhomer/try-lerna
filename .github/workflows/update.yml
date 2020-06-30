@@ -24,9 +24,8 @@ jobs:
       run: |
         npm install
         npm run update
-        npm install
-        npm run clean
-        npm run bootstrap
+        npm install 
+        npx lerna bootstrap --no-ci
         npm test
       env:
         CI: false
