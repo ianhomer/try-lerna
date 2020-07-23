@@ -16,7 +16,7 @@
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test",
     "build:watch": "lerna run build:watch",
-    "update": "npx npm-check-updates -u && lerna exec -- npx npm-check-updates -u"
+    "update": "npx npm-check-updates -u && npx lerna exec -- npx npm-check-updates -u && lerna clean --yes && lerna exec \"npm install --package-lock-only --no-audit\""
   },
   "dependencies": {
     "handlebars": "^4.7.6",
