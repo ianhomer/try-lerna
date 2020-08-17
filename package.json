@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "handlebars": "^4.7.6",
-    "npm-check-updates": "^7.0.3"
+    "npm-check-updates": "^7.1.1"
   }
 }
