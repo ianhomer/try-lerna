@@ -11,7 +11,7 @@
     "build:watch": "tsc -w"
   },
   "dependencies": {
-    "@types/react": "^16.9.48",
+    "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "babel-plugin-transform-rename-import": "^2.3.0",
     "node-sass": "^4.14.1",
@@ -22,11 +22,11 @@
   "peerDependencies": {
     "react": "^16.13",
     "react-dom": "^16.13",
-    "styled-components": "^5.1"
+    "styled-components": "^5.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.4",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
     "babel-plugin-transform-import-paths": "^1.0.3",
     "minimist": ">=1.2.5",
     "renamer": "^2.0.1"
