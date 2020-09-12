@@ -16,10 +16,10 @@
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test",
     "build:watch": "lerna run build:watch",
-    "update": "npx npm-check-updates -u && lerna exec -- npx npm-check-updates -u && lerna bootstrap"
+    "update": "npx npm-check-updates -u && npx lerna exec -- npx npm-check-updates -u && lerna clean --yes && lerna bootstrap --no-ci -- --package-lock-only --no-audit"
   },
   "dependencies": {
     "handlebars": "^4.7.6",
-    "npm-check-updates": "^7.0.1"
+    "npm-check-updates": "^8.1.0"
   }
 }

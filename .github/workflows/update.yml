@@ -25,16 +25,15 @@ jobs:
         npm install
         npm run update
         npm install
-        npm run clean
-        npm run bootstrap
+        npx lerna bootstrap --no-ci
+        npm test
       env:
         CI: false
     - name: commit update
       run: |
-        git config --local user.email "auto@purplepip.com"
-        git config --local user.name "Purple Pip Robot"
-        git commit -am "Auto-update"
-        git push
-    - name: test
-      run: |
-        npm test
+        if ! git diff --quiet --exit-code ; then
+          git config --local user.email "auto@purplepip.com"
+          git config --local user.name "Purple Pip Robot"
+          git commit -am "Auto-update"
+          git push
+        fi
