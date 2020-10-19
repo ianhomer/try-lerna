@@ -6,8 +6,8 @@
   "dependencies": {
     "@try-lerna/logger": "^1.0.0",
     "@try-lerna/validator": "^1.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
