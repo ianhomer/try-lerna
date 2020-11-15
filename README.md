@@ -1,4 +1,6 @@
-# TL;DR
+# Try Lerna
+
+## tl;dr
 
     npm install
     npm run bootstrap
