@@ -12,6 +12,7 @@
     "format:pkg": "format-package -w",
     "install:package-locks": "lerna exec npm i --package-lock-only",
     "link": "lerna link",
+    "lock:fix": "lerna clean --yes && lerna bootstrap --no-ci",
     "prettier": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
     "start": "run-s bootstrap start:lerna",
