@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './CallBackend';
-import {CallBackend} from "./CallBackend"
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "./CallBackend";
+import { CallBackend } from "./CallBackend";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Booking Service</p>
-        <CallBackend/>
+        <CallBackend />
       </header>
     </div>
   );

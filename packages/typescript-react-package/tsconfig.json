@@ -12,17 +12,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "*.scss": [ "*.css" ]
+      "*.scss": ["*.css"]
     }
   },
-  "typeRoots": [
-    "./src/index.d.ts"
-  ],
-  "include": [
-    "./src/**/*.tsx",
-    "./src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "typeRoots": ["./src/index.d.ts"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

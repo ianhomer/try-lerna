@@ -1,33 +1,37 @@
-import React, { Component } from 'react';
-import { isNullOrWhitespace } from '@try-lerna/validator';
+import React, { Component } from "react";
+import { isNullOrWhitespace } from "@try-lerna/validator";
 
 export class CallBackend extends Component {
   state = {
-    name: ''
-  }
+    name: "",
+  };
 
   onSubmit = () => {
-    const {name} = this.state;
+    const { name } = this.state;
     if (isNullOrWhitespace(name)) {
-      alert('Please, type your name first.');
+      alert("Please, type your name first.");
       return;
     }
 
     fetch(`/foo?name=${name}`)
-      .then(response => response.json())
-      .then(({message}) => this.setState({message, error: null}))
-      .catch(error => this.setState({error}));
-  }
+      .then((response) => response.json())
+      .then(({ message }) => this.setState({ message, error: null }))
+      .catch((error) => this.setState({ error }));
+  };
 
   render() {
-    const {name, message, error} = this.state;
+    const { name, message, error } = this.state;
     return (
-      <div style={{padding: '10px'}}>
-    {message && <div style={{fontSize: '50px'}}>{message}</div>}
-    <input value={name} onChange={(event) => this.setState({name: event.target.value})} placeholder="Type your name"/>
-      <button onClick={this.onSubmit}>Submit</button>
-      {error && <pre>{JSON.stringify(error)}</pre>}
+      <div style={{ padding: "10px" }}>
+        {message && <div style={{ fontSize: "50px" }}>{message}</div>}
+        <input
+          value={name}
+          onChange={(event) => this.setState({ name: event.target.value })}
+          placeholder="Type your name"
+        />
+        <button onClick={this.onSubmit}>Submit</button>
+        {error && <pre>{JSON.stringify(error)}</pre>}
       </div>
-      );
+    );
   }
 }

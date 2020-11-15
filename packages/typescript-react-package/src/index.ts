@@ -1,6 +1,3 @@
 import EyeCandy from "./EyeCandy";
 
-export {
-  EyeCandy
-}
-
+export { EyeCandy };
