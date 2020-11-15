@@ -2,11 +2,11 @@
   "name": "@try-lerna/logger",
   "version": "1.0.0",
   "description": "logger for try-lerna",
+  "license": "ISC",
+  "author": "",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

@@ -2,21 +2,21 @@
   "name": "@try-lerna/typescript-package",
   "version": "1.0.0",
   "description": "Typescript package",
+  "license": "ISC",
+  "author": "",
+  "keywords": [],
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"No tests\"",
+    "build": "tsc",
     "build:watch": "tsc -w",
     "prepublishOnly": "tsc",
-    "build": "tsc"
+    "test": "echo \"No tests\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "typescript": "^4.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6",
-        "minimist": ">=1.2.5"
+    "minimist": ">=1.2.5",
+    "nodemon": "^2.0.6"
   }
 }

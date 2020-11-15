@@ -2,14 +2,14 @@
   "name": "@try-lerna/typescript-react-package",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "types": "src/index.d.ts",
   "scripts": {
-    "prepublishOnly": "tsc",
     "build": "tsc ; npm run build:sass ; npm run build:babel",
-    "build:sass": "node-sass  -o dist/ src/",
     "build:babel": "babel dist --out-dir dist",
-    "build:watch": "tsc -w"
+    "build:sass": "node-sass  -o dist/ src/",
+    "build:watch": "tsc -w",
+    "prepublishOnly": "tsc"
   },
+  "types": "src/index.d.ts",
   "dependencies": {
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",

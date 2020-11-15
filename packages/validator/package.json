@@ -2,11 +2,11 @@
   "name": "@try-lerna/validator",
   "version": "1.0.0",
   "description": "validator for try-lerna",
+  "license": "ISC",
+  "author": "",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
