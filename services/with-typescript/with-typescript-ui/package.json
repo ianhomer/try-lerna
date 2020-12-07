@@ -25,7 +25,7 @@
   "dependencies": {
     "@try-lerna/typescript-package": "1.0.0",
     "@try-lerna/typescript-react-package": "1.0.0",
-    "@types/jest": "26.0.15",
+    "@types/jest": "26.0.16",
     "@types/node": "14.14.10",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
@@ -37,6 +37,6 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
-    "react-app-rewired": "^2.1.6"
+    "react-app-rewired": "^2.1.7"
   }
 }
