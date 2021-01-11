@@ -25,8 +25,8 @@
   "dependencies": {
     "@try-lerna/typescript-package": "1.0.0",
     "@try-lerna/typescript-react-package": "1.0.0",
-    "@types/jest": "26.0.19",
-    "@types/node": "14.14.19",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.20",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "node-sass": "4.14.1",
