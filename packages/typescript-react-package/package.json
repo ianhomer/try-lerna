@@ -25,8 +25,8 @@
     "styled-components": "^5.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.13",
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
     "babel-plugin-transform-import-paths": "^1.0.3",
     "minimist": ">=1.2.5",
     "renamer": "^2.0.1"
