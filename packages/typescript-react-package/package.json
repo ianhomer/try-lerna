@@ -11,7 +11,7 @@
   },
   "types": "src/index.d.ts",
   "dependencies": {
-    "@types/react": "^17.0.4",
+    "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.3",
     "babel-plugin-transform-rename-import": "^2.3.0",
     "node-sass": "4.14.1",
@@ -22,13 +22,13 @@
   "peerDependencies": {
     "react": "^17.0",
     "react-dom": "^17.0",
-    "styled-components": "^5.2"
+    "styled-components": "^5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
     "babel-plugin-transform-import-paths": "^1.0.3",
     "minimist": ">=1.2.5",
-    "renamer": "^2.0.1"
+    "renamer": "^3.0.1"
   }
 }
