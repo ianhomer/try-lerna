@@ -12,19 +12,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
       - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: npm install, build, and test
+          node-version: 16.1
+      - name: install, build, and test
         run: |
-          npm install
-          npm run bootstrap
-          npm run build
-          npm test
+          yarn
+          yarn bootstrap
+          yarn build
+          yarn test

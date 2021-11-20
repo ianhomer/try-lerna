@@ -15,10 +15,10 @@
     "lock:fix": "lerna clean --yes && lerna bootstrap --no-ci",
     "lint": "npx prettier --check .",
     "lint:fix": "npx prettier --write .",
-    "start": "npm run start:lerna",
+    "start": "yarn start:lerna",
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test",
-    "update": "npx npm-check-updates -u && npx lerna exec -- npx npm-check-updates -u && lerna clean --yes && lerna bootstrap --no-ci -- --package-lock-only --no-audit"
+    "update": "yarn upgrade -L"
   },
   "dependencies": {
     "handlebars": "^4.7.7"
