@@ -18,7 +18,7 @@
     "start": "yarn start:lerna",
     "start:lerna": "lerna run start --parallel",
     "test": "lerna run test",
-    "update": "yarn upgrade -L && npx lerna exec -- yarn upgrade -L && lerna bootstrap --no-ci -- --package-lock-only --no-audit"
+    "update": "yarn upgrade -L"
   },
   "dependencies": {
     "handlebars": "^4.7.7",
