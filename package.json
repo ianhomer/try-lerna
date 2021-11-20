@@ -8,9 +8,9 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:watch": "lerna run build:watch",
-    "clean": "lerna clean --yes",
+    "clean": "lerna clean --yes && rimraf yarn.lock",
     "format:pkg": "format-package -w",
-    "install:package-locks": "lerna exec npm i --package-lock-only",
+    "install:package-locks": "lerna exec yarn",
     "link": "lerna link",
     "lock:fix": "lerna clean --yes && lerna bootstrap --no-ci",
     "lint": "npx prettier --check .",
@@ -21,7 +21,8 @@
     "update": "yarn upgrade -L && npx lerna exec -- yarn upgrade -L && lerna bootstrap --no-ci -- --package-lock-only --no-audit"
   },
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "immer": "^9.0.6"
   },
   "devDependencies": {
     "format-package": "^6.1.0",
