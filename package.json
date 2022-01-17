@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7",
-    "immer": "^9.0.7"
+    "immer": "^9.0.12"
   },
   "devDependencies": {
     "format-package": "^6.1.0",
