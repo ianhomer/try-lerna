@@ -25,11 +25,11 @@
     "immer": "^9.0.12"
   },
   "devDependencies": {
-    "format-package": "^6.1.0",
+    "format-package": "^7.0.0",
     "lerna": "^4.0.0",
     "minimist": ">=1.2.5",
-    "npm-check-updates": "^12.5.3",
-    "prettier": "^2.5.1",
+    "npm-check-updates": "^12.5.4",
+    "prettier": "^2.6.0",
     "rimraf": "^3.0.2"
   },
   "resolutions": {
