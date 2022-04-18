@@ -28,7 +28,7 @@
     "format-package": "^7.0.0",
     "lerna": "^4.0.0",
     "minimist": ">=1.2.6",
-    "npm-check-updates": "^12.5.8",
+    "npm-check-updates": "^12.5.9",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2"
   },
