@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "format-package": "^7.0.0",
-    "lerna": "^5.0.0",
+    "lerna": "^5.1.1",
     "minimist": ">=1.2.6",
-    "npm-check-updates": "^13.1.1",
+    "npm-check-updates": "^13.1.4",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2"
   },
