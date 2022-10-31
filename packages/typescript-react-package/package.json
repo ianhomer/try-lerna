@@ -28,7 +28,7 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "babel-plugin-transform-import-paths": "^1.0.3",
-    "minimist": ">=1.2.5",
+    "minimist": ">=1.2.6",
     "renamer": "^4.0.0"
   }
 }
