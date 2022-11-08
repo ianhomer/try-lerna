@@ -1,10 +1,10 @@
 # Try Lerna
 
-## tl;dr
+## Getting started
 
-    npm install
-    npm run bootstrap
-    npm start
+    yarn install
+    yarn run bootstrap
+    yarn start
 
 ## Creating new service
 
