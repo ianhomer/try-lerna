@@ -3,7 +3,9 @@
     [
       "transform-rename-import",
       { "original": "^(.+?).scss$", "replacement": "$1.css" }
-    ]
+    ],
+    ["@babel/plugin-syntax-jsx"]
   ],
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
   "minified": true
 }
