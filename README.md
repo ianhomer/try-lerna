@@ -1,10 +1,10 @@
 # Try Lerna
 
-## tl;dr
+## Getting started
 
-    npm install
-    npm run bootstrap
-    npm start
+    yarn install
+    yarn run bootstrap
+    yarn start
 
 ## Creating new service
 
@@ -12,8 +12,8 @@ Create BE API
 
     mkdir -p services/foo/foo-api
     cd services/foo/foo-api
-    npm init --scope=try-lerna --yes
-    npm i express --save
+    yarn init --scope=try-lerna --yes
+    yarn add express --save
     lerna add @try-lerna/logger --scope=@try-lerna/foo-api
 
 Create services/foo/foo-api/index.js and add "start": "node index.js" script to

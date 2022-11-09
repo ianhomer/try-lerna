@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc ; npm run build:sass ; npm run build:babel",
+    "build": "tsc ; yarn build:sass ; yarn build:babel",
     "build:babel": "babel dist --out-dir dist",
     "build:sass": "node-sass  -o dist/ src/",
     "build:watch": "tsc -w",
@@ -11,22 +11,20 @@
   },
   "types": "src/index.d.ts",
   "dependencies": {
-    "@types/react": "^17.0.35",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
     "babel-plugin-transform-rename-import": "^2.3.0",
-    "node-sass": "6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.5.2"
-  },
-  "peerDependencies": {
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "styled-components": "^5.3"
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/plugin-syntax-jsx": "^7.18.6",
     "babel-plugin-transform-import-paths": "^1.0.3",
     "minimist": ">=1.2.5",
     "renamer": "^4.0.0"
