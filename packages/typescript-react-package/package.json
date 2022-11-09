@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc ; npm run build:sass ; npm run build:babel",
+    "build": "tsc ; yarn build:sass ; yarn build:babel",
     "build:babel": "babel dist --out-dir dist",
     "build:sass": "node-sass  -o dist/ src/",
     "build:watch": "tsc -w",
