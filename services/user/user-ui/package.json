@@ -30,6 +30,6 @@
     "react-scripts": "^5.0.1"
   },
   "resolutions": {
-    "immer": "^8.0.1"
+    "immer": "^9.0.6"
   }
 }
