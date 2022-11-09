@@ -27,6 +27,7 @@
   "devDependencies": {
     "format-package": "^7.0.0",
     "lerna": "^6.0.3",
+    "lerna-update-wizard": "^1.1.2",
     "minimist": ">=1.2.7",
     "npm-check-updates": "^16.3.18",
     "prettier": "^2.7.1",
