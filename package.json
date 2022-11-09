@@ -6,7 +6,7 @@
   "scripts": {
     "audit": "lerna exec npm audit",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "build": "lerna run build --concurrency=1",
     "build:watch": "lerna run build:watch",
     "clean": "lerna clean --yes && rimraf yarn.lock",
     "format:pkg": "format-package -w",
