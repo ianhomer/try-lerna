@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7",
-    "immer": "^9.0.16"
+    "immer": "^9.0.6"
   },
   "devDependencies": {
     "format-package": "^7.0.0",
@@ -34,6 +34,6 @@
     "rimraf": "^3.0.2"
   },
   "resolutions": {
-    "immer": "^8.0.1"
+    "immer": "^9.0.6"
   }
 }
