@@ -12,8 +12,8 @@ Create BE API
 
     mkdir -p services/foo/foo-api
     cd services/foo/foo-api
-    npm init --scope=try-lerna --yes
-    npm i express --save
+    yarn init --scope=try-lerna --yes
+    yarn add express --save
     lerna add @try-lerna/logger --scope=@try-lerna/foo-api
 
 Create services/foo/foo-api/index.js and add "start": "node index.js" script to
