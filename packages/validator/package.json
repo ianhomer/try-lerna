@@ -1,6 +1,6 @@
 {
   "name": "@try-lerna/validator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "validator for try-lerna",
   "license": "ISC",
   "main": "index.js",
