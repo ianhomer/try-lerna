@@ -1,6 +1,6 @@
 {
   "name": "@try-lerna/typescript-react-package",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc ; yarn build:sass ; yarn build:babel",

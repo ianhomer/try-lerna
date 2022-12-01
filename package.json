@@ -1,8 +1,6 @@
 {
   "name": "@try-lerna/root",
   "license": "ISC",
-  "author": "",
-  "keywords": [],
   "scripts": {
     "audit": "lerna exec npm audit",
     "bootstrap": "lerna bootstrap",
