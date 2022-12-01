@@ -1,10 +1,8 @@
 {
   "name": "@try-lerna/validator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "validator for try-lerna",
   "license": "ISC",
-  "author": "",
-  "keywords": [],
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests\""

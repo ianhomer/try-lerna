@@ -1,6 +1,6 @@
 {
   "name": "@try-lerna/user-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "user-api service for try-lerna",
   "license": "ISC",
   "author": "",
@@ -11,7 +11,7 @@
     "test": "echo \"No tests\""
   },
   "dependencies": {
-    "@try-lerna/logger": "^1.0.0",
+    "@try-lerna/logger": "^0.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.20"
   }

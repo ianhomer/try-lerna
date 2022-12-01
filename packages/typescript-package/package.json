@@ -1,10 +1,8 @@
 {
   "name": "@try-lerna/typescript-package",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Typescript package",
   "license": "ISC",
-  "author": "",
-  "keywords": [],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
