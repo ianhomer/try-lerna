@@ -1,6 +1,12 @@
 {
   "name": "@try-lerna/with-typescript-ui",
   "version": "0.0.1",
+  "scripts": {
+    "build": "react-scripts build",
+    "serve": "serve -s build",
+    "start": "PORT=3002 react-scripts start",
+    "test": "react-scripts test"
+  },
   "browserslist": {
     "development": [
       "last 1 chrome version",
@@ -17,6 +23,8 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "@try-lerna/typescript-package": "0.0.1",
+    "@try-lerna/typescript-react-package": "0.0.1",
     "@types/jest": "27.5.2",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
