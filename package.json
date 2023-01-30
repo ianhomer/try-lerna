@@ -20,16 +20,16 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7",
-    "immer": "^9.0.18"
+    "immer": "^9.0.19"
   },
   "devDependencies": {
     "format-package": "^7.0.0",
     "lerna": "^6.4.1",
     "lerna-update-wizard": "^1.1.2",
     "minimist": ">=1.2.7",
-    "npm-check-updates": "^16.6.2",
+    "npm-check-updates": "^16.6.3",
     "prettier": "^2.8.3",
-    "rimraf": "^4.1.1"
+    "rimraf": "^4.1.2"
   },
   "resolutions": {
     "immer": "^9.0.6"
