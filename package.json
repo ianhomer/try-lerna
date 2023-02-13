@@ -26,9 +26,9 @@
     "format-package": "^7.0.0",
     "lerna": "^6.4.1",
     "lerna-update-wizard": "^1.1.2",
-    "minimist": ">=1.2.7",
-    "npm-check-updates": "^16.6.4",
-    "prettier": "^2.8.3",
+    "minimist": ">=1.2.8",
+    "npm-check-updates": "^16.7.4",
+    "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
   },
   "resolutions": {
