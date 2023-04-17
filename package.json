@@ -27,7 +27,7 @@
     "lerna": "^6.6.1",
     "lerna-update-wizard": "^1.1.2",
     "minimist": ">=1.2.8",
-    "npm-check-updates": "^16.10.7",
+    "npm-check-updates": "^16.10.8",
     "prettier": "^2.8.7",
     "rimraf": "^5.0.0"
   },
