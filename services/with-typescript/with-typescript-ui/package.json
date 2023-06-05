@@ -26,7 +26,7 @@
     "@try-lerna/typescript-package": "0.0.1",
     "@try-lerna/typescript-react-package": "0.0.1",
     "@types/jest": "27.5.2",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.11.10",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "node-sass": "^8.0.0",
